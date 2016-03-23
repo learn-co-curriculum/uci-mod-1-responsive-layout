@@ -17,7 +17,7 @@ In this lesson we will show a practical strategy for adjusting layout wrappers a
 
 ### Alternating Wrapper Measurement
 
-Some of your website visitors will be viewing your website on large displays such as big desktop computers or smart tvs, others might be viewing your website on small tablets and mobile devices. For this reason we might want to adjust our wrapper size to change between fluid for smaller devices to fixed for larger devices. For example a common strategy is to make a layour center and stay within a fixed pixel size on large screens that way our content doesn't get stretched out to wide, yet on smaller devices we may want to switch to a liquid (fluid) size using percents so our content will squish and expand on many different small and medium size devices taking up the maximum amount of space available. Let's look at some example code,
+Some of your website visitors will be viewing your website on large displays, such as big desktop computers or smart TVs; others might be viewing your website on small tablets and mobile devices. For this reason, we might want to adjust our wrapper size to change between fluid (for smaller devices) to fixed (for larger devices). For example, a common strategy is to make a layout centered and stay within a fixed pixel size on large screens so that our content doesn't get stretched out too wide. On smaller devices, we may want to switch to a liquid (fluid) size using percents so our content will squish and expand on many different small and medium size devices, taking up the maximum amount of space available. Let's look at some example code:
 
 #### Desktop Down
 
@@ -31,7 +31,7 @@ Some of your website visitors will be viewing your website on large displays suc
 }
 ```
 
-In the code above on line 2 we are setting the default size of our wrapper element to 960px. Then on line 6 we are changing the wrapper size to a fluid 90% of the screen width when the screen size gets below 980px.
+In the code above, on line 2, we are setting the default size of our wrapper element to 960px. Then on line 6 we are changing the wrapper size to a fluid 90% of the screen width when the screen size gets below 980px.
 
 #### Mobile Up (Mobile First)
 
@@ -47,11 +47,11 @@ In the code above on line 2 we are setting the default size of our wrapper eleme
 
 In the code above on line 2 we are setting the default size of our wrapper element to 90% width of the screen size. Then on line 6 we are changing the wrapper size to a fixed 960px when the screen size gets above 980px.
 
-Check out these code examples in the resource links at the bottom of thsi lesson. 
+Check out these code examples in the resource links at the bottom of this lesson. 
 
 ### Adjusting Column Size and Positioning
 
-Another common issue we battle when building responsive sites is how to handle multi column layouts on smaller devices. On a large screen having 3 columns across the page might look great, but on a smaller mobile device this will squish the content very tight. In these cases it is a common strategy to change the multi column layout into a single column layout. This can be achieved easily by changing floating columns to `float:none` on smaller devices and adjusting their widths accordingly.Let's look at some example code,
+Another common issue we battle when building responsive sites is handling multi-column layouts on smaller devices. On a large screen, having 3 columns across the page might look great, but on a smaller mobile device this will squish the content to be very narrow. In these cases, it is a common strategy to change the multi-column layout into a single column layout. This can be achieved easily by changing floating columns to `float:none` on smaller devices and adjusting their widths accordingly. Let's look at some example code,
 
 #### Desktop Down
 
@@ -101,3 +101,5 @@ In the code above on line 2 we are setting the default size of our column elemen
 - [Mobile First Responsive Layout - Code Example](http://jsfiddle.net/flatiron_school/jERBH/5/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/responsive-layout' title='Responsive Layout'>Responsive Layout</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/responsive-layout'>Responsive Layout</a> on Learn.co and start learning to code for free.</p>
