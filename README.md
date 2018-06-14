@@ -132,7 +132,7 @@ over multiple columns.
 
 ## Conclusion
 
-Whwen building responsive layouts, it is a common strategy to use wrappers and
+When building responsive layouts, it is a common strategy to use wrappers and
 adjust their  widths from fixed to fluid on different size devices. In addition
 to adjusting wrapper sizes, you can create variable column sizes and float positioning
 to go from multi column layout to single column layout on smaller devices. This
