@@ -70,7 +70,7 @@ element to 90% width of the screen size, so it will grow and shrink
 automatically. Then on line 6 we are changing the wrapper size to a fixed 960px
 when the screen size gets above 980px.
 
-## Construct adjustable column properties for different screen sizes 
+## Construct Adjustable Column Properties for Different Screen Sizes 
 
 One common issue we battle when building responsive sites is handling
 multi-column layouts on smaller devices. On a large screen, having 3 columns
